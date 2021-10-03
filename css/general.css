@@ -13,6 +13,10 @@ rgb(3, 115, 145)
 #DABECA
 rgb(218, 190, 202)
 
+#eddfe5
+#e9d8df
+#e5d2da
+
 #BF8B85
 rgb(191, 139, 133)
 
@@ -44,4 +48,65 @@ body {
   font-weight: 400;
   color: #555;
   overflow-x: hidden;
+}
+
+/* BUTTONS */
+
+.pushable {
+  position: relative;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25); /* Grey Shade */
+  /* background: #4b1723 */
+  transform: translateY(2px);
+}
+.edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  /* background: hsl(340deg 100% 32%); */
+  background: #4b1723; /* Color back */
+}
+.front {
+  display: block;
+  position: relative;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 3rem;
+  color: #ddd;
+  /* background: hsl(345deg 100% 47%); */
+  /* background: #815d65; */
+  background: #6f454f; /* Color Top */
+  /* background: transparent; */
+  transform: translateY(-4px);
+}
+
+.pushable:hover .front {
+  transform: translateY(-6px);
+}
+.pushable:hover .shadow {
+  transform: translateY(4px);
+}
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+.pushable:active .shadow {
+  transform: translateY(1px);
+}
+
+.pushable:focus:not(:focus-visible) {
+  outline: none;
 }
