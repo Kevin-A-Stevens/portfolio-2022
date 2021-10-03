@@ -45,3 +45,31 @@ a:nth-last-of-type(1) {
   height: 100vh;
   background-size: cover;
 }
+
+.section-hero {
+  height: 100%;
+  width: auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-title {
+  /* display: flex;
+
+  align-items: center;
+  justify-content: center; */
+  font-size: 7.4rem;
+  color: #eddfe5;
+}
+
+.hero-text {
+  /* display: flex;
+
+  align-items: center;
+  justify-content: center; */
+  font-size: 3rem;
+  color: #eddfe5;
+}
