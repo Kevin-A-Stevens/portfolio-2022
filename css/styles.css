@@ -36,7 +36,7 @@ a:nth-last-of-type(1) {
 
 .nav-link-contact {
   padding: 0 1.8rem;
-  border-radius: 20%;
+  border-radius: 30%;
 }
 
 /* HEADER STYLES */
@@ -63,6 +63,7 @@ a:nth-last-of-type(1) {
   justify-content: center; */
   font-size: 7.4rem;
   color: #eddfe5;
+  padding-bottom: 12.8rem;
 }
 
 .hero-text {
@@ -72,4 +73,5 @@ a:nth-last-of-type(1) {
   justify-content: center; */
   font-size: 3rem;
   color: #eddfe5;
+  line-height: 1.2;
 }

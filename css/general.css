@@ -28,8 +28,8 @@ rgb(93, 95, 113)
 
 /* Global Reset */
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -44,9 +44,11 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  line-height: 1;
   font-weight: 400;
-  color: #555;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #eddfe5;
+  /* color: #555; */
   overflow-x: hidden;
 }
 
