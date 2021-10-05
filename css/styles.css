@@ -3,7 +3,7 @@
 .section-header-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 2rem;
+  padding-top: 1rem;
   max-height: 6.2rem;
 }
 
