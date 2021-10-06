@@ -22,8 +22,12 @@
   gap: 4.4rem;
 }
 
-a:nth-last-of-type(1) {
+/* a:nth-last-of-type(1) {
   border: 1px solid #dabeca;
+} */
+
+.btn-contact {
+  margin: 1rem;
 }
 
 .nav-link {

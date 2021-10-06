@@ -80,7 +80,7 @@ body {
   height: 100%;
   border-radius: 12px;
   /* background: hsl(340deg 100% 32%); */
-  background: #4b1723; /* Color back */
+  background: #01222b; /* Color back */
 }
 .front {
   display: block;
@@ -91,7 +91,7 @@ body {
   color: #ddd;
   /* background: hsl(345deg 100% 47%); */
   /* background: #815d65; */
-  background: #6f454f; /* Color Top */
+  background: #036883; /* Color Top */
   /* background: transparent; */
   transform: translateY(-4px);
 }
