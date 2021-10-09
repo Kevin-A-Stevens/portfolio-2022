@@ -46,6 +46,7 @@
 /* HEADER STYLES */
 .header-container {
   background-image: url(../img/night.jpg);
+  /* background-image: url(../img/giphy.webp); */
   height: 100vh;
   background-size: cover;
 }
